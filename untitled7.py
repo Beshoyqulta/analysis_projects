@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("/content/Coffee_Qlty.csv")
+df = pd.read_csv("Coffee_Qlty.csv")
 
 df.rename(columns = {'REC_ID':'rec_id', 'Species':'species', 'Continent.of.Origin':'continent_of_origin', 'Country.of.Origin' :'country_of_origin',
        'Harvest.Year':'harvest_year', 'Expiration':'expiration', 'Variety':'variety', 'Color':'color', 'Processing.Method':'processing_method',
